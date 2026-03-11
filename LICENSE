@@ -1,0 +1,24 @@
+Z-Arch CLI Distribution License
+Copyright (c) 2026 RAM Cloud Code LLC
+All Rights Reserved.
+
+This repository contains release artifacts and documentation for the Z-Arch command line interface ("Z-Arch CLI"). The Z-Arch CLI is proprietary software owned exclusively by RAM Cloud Code LLC.
+
+Except as expressly authorized by RAM Cloud Code LLC, no rights are granted to copy, modify, distribute, sublicense, reverse engineer, decompile, disassemble, or create derivative works of the Z-Arch CLI.
+
+No rights are granted to access, obtain, reproduce, or distribute the source code of the Z-Arch CLI.
+
+The presence of binaries, documentation, or other materials in this repository does not grant any license or rights to the underlying software except as expressly provided by RAM Cloud Code LLC.
+
+The Z-Arch CLI is distributed only through official releases provided by RAM Cloud Code LLC.
+
+Use of the Z-Arch CLI is permitted only as authorized by RAM Cloud Code LLC. Certain features or capabilities of the Z-Arch CLI may require a valid commercial license issued by RAM Cloud Code LLC.
+
+DISCLAIMER OF WARRANTY
+
+THE Z-ARCH CLI IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL RAM CLOUD CODE LLC BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE Z-ARCH CLI OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries contact:
+legal@ramcloudcode.com
