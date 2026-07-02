@@ -4,7 +4,7 @@
 * Setup your environment
 * Bootstrap and deploy a new project
 
-***Prerequisite**: Make sure you have a [https://console.cloud.google.com/billing](billing account) with a card on file before bootstrapping a Z-Arch project. 
+**Prerequisite**: Make sure you have a [billing account](https://console.cloud.google.com/billing) with a card on file before bootstrapping a Z-Arch project. 
 This is required to enable certain GCP services that Z-Arch relies on.
 
 ## Install the CLI
