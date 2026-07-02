@@ -8,47 +8,47 @@
 This is required to enable certain GCP services that Z-Arch relies on.
 
 ## Install the CLI
-Before bootstrapping your new project, make sure Z-Arch CLI is installed in your home directory.
+Before bootstrapping your new project, make sure Z-Arch CLI is installed in your home directory:
 ```sh
 chmod +x ./install.sh && ./install.sh
 ```
-**Tip**: Click the <walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> button in the code block above to run the command in your Cloud Shell terminal. 
+**Tip**: Click the <walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> button in the code block above to copy the command to your Cloud Shell terminal. 
 
 ## Connect to Github
-Create a PAT used for bootstrapping new projects.
+Create a PAT used for bootstrapping new projects:
 ```sh
 zarch connect github
 ```
-  
-Later you can replace this with a PAT scoped only to the appropriate project repo.
+**Note**: Z-Arch will encrypt and store the PAT locally and to your project's Secret Manager once the project exists. 
+
+### Later 
+You should replace this with a PAT scoped only to the appropriate project repo:
 ```sh
 zarch connect github --project
 ```
 
-**Note**: Z-Arch will encrypt and store the PAT locally and to your project's Secret Manager once the project exists. 
-
 ## Connect to Cloudflare
-Create an access token for bootstrapping new projects.
+Create an access token for bootstrapping new projects:
 ```sh
 zarch connect cloudflare
 ```
+**Note**: Z-Arch will encrypt and store the token locally and to your project's Secret Manager once the project exists. 
   
-Later you can replace this with a token scoped only to the appropriate project repo.
+### Later 
+You should replace this with a token scoped only to the appropriate project resources:
 ``` sh
 zarch connect cloudflare --project
 ```
 
-**Note**: Z-Arch will encrypt and store the token locally and to your project's Secret Manager once the project exists. 
-
-## Boostrap a Project
-### Bootstrap
-Run
+## Go Live!
+### Bootstrap Project
 ```sh
 zarch new app ~/{{PATH_NAME}}
 ```
 **Tip**: Input the path where you would like the new project to be created. Leave blank if you want it in the home directory.
 
-### Deploy your project's resources as described in the `zarch.yaml`
+### Deploy Resources
+Your project's resources are described in the `zarch.yaml`. Run the command below when you are ready to deploy them.
 ```sh
 zarch deploy all
 ```
