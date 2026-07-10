@@ -3,7 +3,7 @@
 Click the button below to launch your Google Cloud Shell environment. Follow the tutorial in the sidebar to install Z-Arch and get started. 
 
 <p align="center">
-  <a href="https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2FRAMCloudCode%2FZ-Arch&cloudshell_tutorial=cloudshell-newapp.md">
+  <a href="https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2FRAMCloudCode%2FZ-Arch&cloudshell_tutorial=tutorials/newapp.md">
     <img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open in Cloud Shell">
   </a>
 </p>
